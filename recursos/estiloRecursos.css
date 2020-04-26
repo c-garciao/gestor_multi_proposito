@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-abr-2020, 20:36:39
+    Author     : Carlos
+*/
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
+body {
+    margin: 0;  
+}
+#contenedor {
+    width: 80%;
+    margin: 2% 10%;
+}
+textarea {
+    resize: none;
+}
+
+#txt_error{
+    display:none;
+    color: red;
+    color: #D8000C;
+    background-color: #FFBABA;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    margin: 25px;
+    //width: 640px;
+    width: 30%;
+    
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 3px 3px 3px 3px;
+}
