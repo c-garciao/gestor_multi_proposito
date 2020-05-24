@@ -1,0 +1,51 @@
+/* 
+    Created on : 07-mar-2020, 22:48:39
+    Author     : Carlos
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+/*----------------------Menu----------------------*/
+#menu {
+    width: 100%;
+    float: left;
+    background-color: cyan;
+    margin-bottom: 2%;
+}
+#menu ul {
+    list-style: none;
+    width: 80%;
+    margin: 1% 10%;
+    float: left;
+}
+#menu ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+#menu > li{
+    float: left;
+    width:30%;
+    text-align: center;
+}
+#menu li ul {
+    width: 80%;
+    margin: 1% 10%;
+    display: none;
+    padding: 0;
+}
+#menu li ul li{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+#menu li ul li:hover {
+    background-color: blueviolet;
+}
+#seleccionado{
+    background-color: red;
+}
+/*----------------------##----------------------*/

@@ -1,0 +1,29 @@
+/* 
+    Created on : 08-feb-2020, 1:58:40
+    Author     : Carlos
+*/
+/***********************************************************Lista de la compra*/
+.chk_estilo{
+    display: none;
+    opacity: 0;
+}
+
+/*Evitamos que en caso de hacer doble click se seleccione el texto (es molesto)*/
+.txt_elemento_lista_estilo{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*Cambiamos el puntero para seleccionar los elemntos de la lista*/
+.txt_elemento_lista_estilo label:hover{
+    cursor: pointer;
+
+}
+/*Ocultamos los elementos checkbox*/
+.chk_estilo input[type="checkbox"]{
+    display: none;
+    border: 0px;
+    width: 10%;
+    opacity: 0;
+}

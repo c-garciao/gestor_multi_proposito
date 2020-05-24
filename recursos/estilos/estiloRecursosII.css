@@ -1,0 +1,26 @@
+/* 
+    Created on : 23-may-2020, 2:19:59
+    Author     : Carlos
+*/
+section{
+    width: 80%;
+    margin: 4% 10%;
+    float: left;
+}
+section article {
+    float: left;
+    width: 30%;
+    margin: 1% 10%;
+    
+}
+textarea {
+    resize: none;
+    width: 100%;
+    height: 200%;
+    overflow: auto;
+}
+section article iframe {
+    width: 100%;
+    height: 100%;
+    /*height: 250px;*/
+}
